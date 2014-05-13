@@ -35,7 +35,7 @@
     <string name="areyousure">Eminmisiniz?</string>
     <string name="phone_not_compatible">Xposed şu an (yet)bu Android SDK versiyonu %1$d ve işlemci mimarisi (%2$s) ile uyumlu değil.</string>
     <string name="not_tested_but_compatible">Xposed Framework bu Android sürümü ile %d, test edilmemiştir ama uyumlu görünüyor. Macerayı seviyorsanız bunu yüklemeyi deneyebilirsiniz..</string>
-    <string name="reboot_failed">Y.Başlatma hatası. Lütfen telefonu normal olarak yeniden başlatın.</string>
+    <string name="reboot_failed">Yeniden Başlatma hatası. Lütfen telefonu normal olarak yeniden başlatın.</string>
     <string name="auto_flash_note">%s işlemi otomatik olarak yapmak istiyorsanız "TAMAM" tuşuna basın.</string>
     <string name="manual_flash_note">İşlemi tamamlamak için lütfen %s SD karttan yükleyin.</string>
     <string name="reboot_confirmation">Telefonu yeniden başlatmak istiyormusunuz?</string>
@@ -44,26 +44,26 @@
     <string name="install_warning">Bazı durumlarda Xposed yüklendikten sonra telefonunuz soft brick olabilir\n\nEğer \"soft brick\" veya \"bootloop\" gibi terimleri duymadıysanız\veya bunlar hakkında bilginiz yoksa Xposedi <b>YÜKLEMEYİN</b> Ya da yüklemeden önce\n\nMutlaka telefonunuzu yedekleyin.</string>
     <string name="dont_show_again">Bunu bir daha gösterme</string>
     <string name="install_known_issue">Kullandığınız rom sürümü ile (\"%s\") Bilinen bir uyumsuzluk sorunu var gibi görünüyor. Muhtemelen Xposed yüklemeniz gerekir. Daha fazla bilgi için buraya tıklayın.</string>
-    <string name="install_reverted">app_process versiyonu \"%1$s\" sisteme yüklenmiş.Ancak \"%2$s\" bulundu. Eğer eski dosyayı kurtarmak veya geri yüklemek istiyorsanız, recovery menüden(otomatik yada or manuel)denemyebilirsiniz.</string>
-    <string name="uninstall_reverted">app_process sistemden kaldırıldı ancak \"%s\" versiyonu bulundu.Eğer eski dosyayı kurtarmak veya geri yüklemek istiyorsanız, recovery menüden(otomatik yada or manuel)denemyebilirsiniz.</string>
+    <string name="install_reverted">app_process versiyonu \"%1$s\" sisteme yüklenmiş.Ancak \"%2$s\" bulundu. Eğer eski dosyayı kurtarmak veya geri yüklemek istiyorsanız, recovery menüden(otomatik ya da or manuel)denemyebilirsiniz.</string>
+    <string name="uninstall_reverted">app_process sistemden kaldırıldı ancak \"%s\" versiyonu bulundu.Eğer eski dosyayı kurtarmak veya geri yüklemek istiyorsanız, recovery menüden(otomatik ya da or manuel)denemyebilirsiniz.</string>
     <string name="tap_to_dismiss">Kapatmak için dokunun</string>
     <string name="sdcard_location">SD Kart: %s</string>
 
     <!-- File operations -->
-    <string name="root_failed">Root erişimi alınamadı.\n\nLütfen cihazınının root erişiminin açık olduğuna ve komut alabildiğine emin olun.</string>
+    <string name="root_failed">Root erişimi alınamadı.\n\nLütfen cihazınızın root erişimi olduğuna ve komut alabildiğine emin olun.</string>
     <string name="file_extract_failed">Dosya %s ayıklanamadı</string>
-    <string name="file_mounting_writable">Montaj %s yazıabilir&#8230;</string>
+    <string name="file_mounting_writable">Montaj %s yazılabilir&#8230;</string>
     <string name="file_mount_writable_failed">Montaj %s yazılabilir değil</string>
-    <string name="file_trying_to_continue">Yine de devam etmek çalışılıyor&#8230;</string>
+    <string name="file_trying_to_continue">Yine de devam etmeye çalışılıyor&#8230;</string>
     <string name="file_backup_already_exists">Bu yedekleme zaten var %s</string>
     <string name="file_backup_not_found">Yedekleme bulunamadı %s</string>
     <string name="file_backup_failed">Yedekleme başarısız oldu %s</string>
     <string name="file_backup_successful">Oluşturulan yedekleme %s</string>
     <string name="file_backup_restoring">Yedeği geri yükleme %s</string>
     <string name="file_copying">Kopyalanıyor %s&#8230;</string>
-    <string name="file_copy_failed">Kopyalanamdı %1$s to %2$s</string>
+    <string name="file_copy_failed">Kopyalanamadı %1$s to %2$s</string>
     <string name="file_move_failed">Taşınamadı %1$s to %2$s</string>
-    <string name="file_set_perms_failed">İzinleri alınamadı %s</string>
+    <string name="file_set_perms_failed">İzinler alınamadı %s</string>
     <string name="file_set_owner_failed">İzinler belirlenemedi %s</string>
     <string name="file_removing">Siliniyor %s&#8230;</string>
     <string name="file_remove_failed">Silme hatası %s</string>
@@ -132,7 +132,7 @@
     <string name="settings_group_installation">Yükleme</string>
     <string name="settings_install_mode">Yükleem Modu</string>
     <string name="install_mode_normal">Klasik (doğrudan /system klasörüne yazma)</string>
-    <string name="install_mode_recovery_auto">Recovery (Zipdosyasıdna yükleme)</string>
+    <string name="install_mode_recovery_auto">Recovery (Zip Dosyasından yükleme)</string>
     <string name="install_mode_recovery_manual">Recovery (SD karta zip oluşturma, manuel yükleme)</string>
     <string name="settings_group_download">İndir</string>
     <string name="settings_enable_downloads">İndirmeleri etkinleştir</string>
@@ -140,9 +140,9 @@
     <string name="settings_release_type">Gösterilecek sürümler</string>
     <string name="settings_group_experimental">Deneysel</string>
     <string name="settings_disable_resources">Kaynak bilgiler engelli</string>
-    <string name="settings_disable_resources_summary">Tema motoru ile çakışmalar için çözüm\n<b>UYARI:</b> Bu etkinleştirildiğinde kaynaklarını değiştirmeye çalışmayın modüller çalışmaz.</string>
+    <string name="settings_disable_resources_summary">Tema motoru ile çakışmalar için çözüm\n<b>UYARI:</b> Bu etkinleştirildiğinde kaynakları değiştirmeye çalışmayın modüller çalışmaz.</string>
     <string name="settings_performance_experiment">Performans deneyleri</string>
-    <string name="settings_performance_experiment_summary">Bunu etkinleştirirseni sistemde performans artışı veya azalma olabilir.. Bunu deneyin ve gördüğünüz herhangi bir etki raporunu bize bildirmekten çekinmeyin. Bunu değiştirdikten sonra framework ve modülleri yeniden yüklemeniz gerekir.</string>
+    <string name="settings_performance_experiment_summary">Bunu etkinleştirirseniz sistemde performans artışı veya azalma olabilir.. Bunu deneyin ve gördüğünüz herhangi bir etki raporunu bize bildirmekten çekinmeyin. Bunu değiştirdikten sonra framework ve modülleri yeniden yüklemeniz gerekir.</string>
     <string name="settings_group_app">Uygulama</string>
     <string name="settings_theme">Tema</string>
     <string name="settings_theme_light">Hafif</string>
@@ -156,7 +156,7 @@
     <string name="log_too_large">Log dosyası büyük %1$,d kB, atlanır %2$,d kB büyük dosyalar.</string>
     <string name="menuClearLog">Kayıtları şimdi sil</string>
     <string name="logs_cleared">Log kayıtları başarı ile silindi</string>
-    <string name="logs_clear_failed">Log kayıtları silinemesi:</string>
+    <string name="logs_clear_failed">Log kayıtları silinemedi:</string>
     <string name="log_is_empty">Log kaydı boş</string>
 
     <!-- About tab -->
