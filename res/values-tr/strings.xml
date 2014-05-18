@@ -19,7 +19,7 @@
     <string name="tabSettings">Ayarlar</string>
     <string name="tabSettingsDescription">Xposed Yükleme ve Framework yapılandırmak için bu bölümüne gidin.</string>
     <string name="tabLogs">Log Kayıtları</string>
-    <string name="tabLogsDescription">Xposed framework loglarını görüntüleme veya kaydet/gönder</string>
+    <string name="tabLogsDescription">Xposed framework loglarını görüntüleme veya kaydmet/gönder</string>
     <string name="tabAbout">Hakkında</string>
     <string name="tabAboutDescription">Xposed,yazılımcılarına ulaşmak ve destek almak için bu bölümü kullanın..</string>
 
@@ -130,9 +130,9 @@
 
     <!-- Settings tab -->
     <string name="settings_group_installation">Yükleme</string>
-    <string name="settings_install_mode">Yükleem Modu</string>
+    <string name="settings_install_mode">Yükleme  Modu</string>
     <string name="install_mode_normal">Klasik (doğrudan /system klasörüne yazma)</string>
-    <string name="install_mode_recovery_auto">Recovery (Zipdosyasıdna yükleme)</string>
+    <string name="install_mode_recovery_auto">Recovery (ZipDosyasından yükleme)</string>
     <string name="install_mode_recovery_manual">Recovery (SD karta zip oluşturma, manuel yükleme)</string>
     <string name="settings_group_download">İndir</string>
     <string name="settings_enable_downloads">İndirmeleri etkinleştir</string>
